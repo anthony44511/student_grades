@@ -1,3 +1,8 @@
+import os 
+
+os.system('cls')
+
+
 def main():
 
   Harry = 81
@@ -29,15 +34,15 @@ def main():
 
 def get_letter_grade(average):
   if average >= 90:
-    return "A your the best"
+    return "A"
   elif average >= 80:
-    return "B you did vary good bro"
+    return "B"
   elif average >= 70:
-    return "C average"
+    return "C"
   elif average >= 60:
-    return "D your bad at this"
+    return "D"
   else:
-    return "F just don't go here anmore"
+    return "F"
 
 
 main()
